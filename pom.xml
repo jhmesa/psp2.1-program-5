@@ -59,7 +59,7 @@
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
-          <finalName>program4</finalName>
+          <finalName>program5</finalName>
           <appendAssemblyId>false</appendAssemblyId>
           <archive>
             <manifest>
