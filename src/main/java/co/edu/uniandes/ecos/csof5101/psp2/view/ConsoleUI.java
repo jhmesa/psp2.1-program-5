@@ -27,7 +27,7 @@ public class ConsoleUI {
 
 	/**
 	 * Method to read the parameters from URL.
-	 * @param params object that contains the request params
+	 * @param req object that contains the request params
 	 */
 	public void readValuesFromURL(Request req) {
 		String xFrom = req.queryParams("xFrom");
@@ -39,11 +39,11 @@ public class ConsoleUI {
 		data.setxFrom(xFromNumber);
 		data.setxTo(xToNumber);
 		data.setDof(dofNumber);
-		
 	}
 
 	/**
 	 * Method to print the metrics calculated on the page.
+	 * @return output list that contains the strings for impressions in the web page
 	 */
 	public ArrayList<String> printMeasurings() {
 		ArrayList<String> output = new ArrayList<String>();

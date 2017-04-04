@@ -26,6 +26,7 @@ public final class Measuring {
 	/**
 	 * Calculate the gamma function for any value
 	 * @param x the number to find the value of gamma function
+	 * @return the value of gamma function
 	 */
 	public static double calculateGammaFunction(double x){
 		double tmp = (x - 0.5) * Math.log(x + 4.5)-(x + 4.5);
@@ -59,6 +60,7 @@ public final class Measuring {
 	/**
 	 * Calculate of multiplier for each value of interval
 	 * @param number the number of the iteration
+	 * @return the value of multiplier
 	 */
 	public static double calculateMultiplier(double number){
 		if(number==0 || number == Data.SEGMENT_NUMBER){
